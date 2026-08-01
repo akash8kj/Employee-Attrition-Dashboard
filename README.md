@@ -1,30 +1,30 @@
-Employee-Attrition-Dashboard
+# Employee Attrition Dashboard
 
-Business Problem
+## Business Problem
 
-How can workforce analytics be used to identify the key drivers of employee attrition across high-risk departments and enable proactive HR retention strategies that reduce turnover, hiring costs, and operational disruption?
-
----
-
-Project Overview
-
-Employee attrition is one of the most significant challenges organizations face, leading to increased recruitment costs, reduced productivity, and operational disruption. This project demonstrates an end-to-end HR Analytics solution that transforms raw workforce data into meaningful business insights through Python, PostgreSQL, SQL, and Power BI.
-
-The project follows a complete analytics pipeline—from data cleaning and exploratory data analysis (EDA) in Python, to SQL-based business analysis in PostgreSQL, and finally to an interactive executive dashboard in Power BI that supports data-driven HR decision-making.
+**How can workforce analytics be used to identify the key drivers of employee attrition across high-risk departments and enable proactive HR retention strategies that reduce turnover, hiring costs, and operational disruption?**
 
 ---
 
-Project Objectives
+# Project Overview
+
+Employee attrition is a critical HR challenge that impacts productivity, increases recruitment costs, and disrupts business operations. This project presents an end-to-end HR Analytics solution that transforms raw employee data into actionable business insights using Python, PostgreSQL, SQL, and Power BI.
+
+The project follows a complete analytics pipeline—from data cleaning and exploratory data analysis (EDA) in Python, to SQL-based business analysis in PostgreSQL, and finally to an interactive executive dashboard in Power BI for strategic HR decision-making.
+
+---
+
+# Project Objectives
 
 - Analyze employee attrition patterns across departments and job roles.
-- Identify the major factors contributing to employee turnover.
+- Identify the key factors driving employee turnover.
 - Perform business-oriented SQL analysis using PostgreSQL.
-- Develop an interactive Power BI dashboard for executive reporting.
-- Generate strategic recommendations to improve employee retention.
+- Develop an interactive Power BI dashboard.
+- Deliver data-driven HR retention recommendations.
 
 ---
 
-Tech Stack
+# Tech Stack
 
 - Python
 - Pandas
@@ -38,29 +38,27 @@ Tech Stack
 
 ---
 
-Project Workflow
+# Project Workflow
 
+```
 Raw Employee Dataset
-        │
-        ▼
+        ↓
 Python Data Cleaning & EDA
-        │
-        ▼
+        ↓
 PostgreSQL Database
-        │
-        ▼
+        ↓
 SQL Business Analysis
-        │
-        ▼
-Power BI Interactive Dashboard
-        │
-        ▼
+        ↓
+Power BI Dashboard
+        ↓
 Business Insights & Strategic Recommendations
+```
 
 ---
 
-Repository Structure
+# Repository Structure
 
+```text
 Employee-Attrition-Dashboard/
 │
 ├── Dataset/
@@ -85,14 +83,15 @@ Employee-Attrition-Dashboard/
 │   └── Employee-Attrition.ipynb
 │
 └── README.md
+```
 
 ---
 
-Exploratory Data Analysis
+# Exploratory Data Analysis
 
 The dataset was cleaned and prepared using Python to ensure high-quality analytical results.
 
-Data preparation included:
+### Data preparation included:
 
 - Missing value treatment
 - Duplicate removal
@@ -104,15 +103,15 @@ Data preparation included:
 
 ---
 
-PostgreSQL Business Analysis
+# PostgreSQL Business Analysis
 
-Business questions were answered using SQL queries in PostgreSQL, including:
+Business questions answered using SQL include:
 
 - Total Employee Count
 - Attrition vs Retention Analysis
 - Department-wise Attrition
 - Job Role Risk Analysis
-- Overtime Impact on Attrition
+- Overtime Impact
 - Job Satisfaction Analysis
 - Work-Life Balance Analysis
 - Salary Analysis
@@ -121,21 +120,18 @@ Business questions were answered using SQL queries in PostgreSQL, including:
 
 ---
 
-Power BI Dashboard
+# Power BI Dashboard
 
-The dashboard consists of three interactive report pages.
-
-1. Overview
+### Page 1 – Overview
 
 - Total Employees
 - Average Age
 - Average Monthly Income
 - Average Years at Company
-- Employee Distribution
-- Department Analysis
+- Department Distribution
 - Education Analysis
 
-2. Deep Analysis
+### Page 2 – Deep Analysis
 
 - Attrition by Job Role
 - Attrition by Overtime
@@ -144,7 +140,7 @@ The dashboard consists of three interactive report pages.
 - Attrition by Education
 - Remote Work Analysis
 
-3. Strategic Recommendations
+### Page 3 – Strategic Recommendations
 
 - Executive KPI Cards
 - Business Insights
@@ -153,7 +149,7 @@ The dashboard consists of three interactive report pages.
 
 ---
 
-Key Business Insights
+# Key Business Insights
 
 - Technology and Healthcare departments experience the highest employee attrition.
 - Employees working overtime are significantly more likely to leave the organization.
@@ -163,17 +159,17 @@ Key Business Insights
 
 ---
 
-Strategic Recommendations
+# Strategic Recommendations
 
 - Implement overtime management policies.
-- Improve employee work-life balance initiatives.
+- Improve work-life balance initiatives.
 - Strengthen career development opportunities.
 - Enhance employee recognition and engagement programs.
-- Continuously monitor workforce metrics through interactive dashboards.
+- Monitor workforce metrics through interactive dashboards.
 
 ---
 
-Project Files
+# Project Files
 
 - Employee Dataset (.csv)
 - Python EDA Notebook
@@ -185,12 +181,10 @@ Project Files
 
 ---
 
-Author
+# Author
 
-Ankan Mondal
+**Ankan Mondal**
 
-Aspiring Data Analyst | Python | SQL | PostgreSQL | Power BI
+**Aspiring Data Analyst | Python | SQL | PostgreSQL | Power BI**
 
----
-
-⭐ If you found this project helpful or interesting, consider giving this repository a star.
+⭐ If you found this project useful, consider giving it a star.
