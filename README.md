@@ -187,4 +187,3 @@ Business questions answered using SQL include:
 
 **Aspiring Data Analyst | Python | SQL | PostgreSQL | Power BI**
 
-⭐ If you found this project useful, consider giving it a star.
